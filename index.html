@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <title>BxSlider Tutorial</title>
+</head>
+<body>
+    <div class="container">
+
+        <ul class="bxslider">
+            <li><img src="/images/img1.jpg" class="img-responsive" /></li>
+            <li><img src="/images/img2.jpg" class="img-responsive" /></li>
+            <li><img src="/images/img3.jpg" class="img-responsive" /></li>
+          </ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script src="js/jquery.bxslider.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.bxslider').bxSlider({
+             mode: 'vertical',
+             slideMargin: 5
+            });
+        });
+    </script>
+
+</body>
+</html>
