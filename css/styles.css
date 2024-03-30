@@ -1,0 +1,15 @@
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.container {
+  width: 800px;
+  height: 200px;
+}
+
+.bx-viewport {
+  height: 400px;
+}
